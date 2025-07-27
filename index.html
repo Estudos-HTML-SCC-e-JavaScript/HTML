@@ -9,59 +9,19 @@
 <body>
   <h1>TESTE DE FORMULÁRIO</h1>
   <form action="/processar_cadastro.php" method="POST">
-    <div>
-        <label for="nome_usuario">Nome de Usuário:</label><br>
-        <input type="text" id="nome_usuario" name="usuario_nome" placeholder="Ex: joao.silva" required>
-    </div>
     <br>
 
     <div>
-        <label for="email_usuario">E-mail:</label><br>
-        <input type="email" id="email_usuario" name="usuario_email" required>
+      <input type="checkbox" id="termos" name="aceite_termos" required>
+      <label for="termos"> Eu li e aceito os termos de serviço.</label>
     </div>
     <br>
+    <hr>
 
     <div>
-        <label for="senha_usuario">Senha:</label><br>
-        <input type="password" id="senha_usuario" name="usuario_senha" required>
+      <button type="submit">Registrar Minha Conta</button>
+      <button type="reset">Limpar Tudo</button>
     </div>
-    <br>
-
-    <p>Qual seu nível de experiência?</p>
-    <div>
-        <label for="iniciante">Iniciante</label>
-        <input type="radio" id="iniciante" name="experiencia" value="iniciante">
-        <!---<label for="iniciante">Iniciante</label>---><br>
-        
-        <input type="radio" id="intermediario" name="experiencia" value="intermediario">
-        <label for="intermediario">Intermediário</label><br>
-        
-        <input type="radio" id="avancado" name="experiencia" value="avancado">
-        <label for="avancado">Avançado</label>
-    </div>
-    <br>
-    
-    <div>
-        <label for="area_interesse">Principal área de interesse:</label><br>
-        <select id="area_interesse" name="interesse">
-            <option value="">Selecione uma opção</option>
-            <option value="frontend">Front-end</option>
-            <option value="backend">Back-end</option>
-            <option value="dados">Banco de Dados</option>
-        </select>
-    </div>
-    <br>
-    
-    <div>
-        <label for="comentarios">Comentários:</label><br>
-        <textarea id="comentarios" name="usuario_comentarios" rows="4" cols="50"></textarea>
-    </div>
-    <br>
-
-    <div>
-        <input type="checkbox" id="termos" name="aceite_termos" required>
-        <label for="termos">Eu li e aceito os termos de serviço.</label>
-    </div>
-</form>
+  </form>
 </body>
 </html>
