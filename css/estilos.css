@@ -18,49 +18,29 @@ p{
   text-align: justify;
 }
 
-.imagem-fixa {
+/*
+ .imagem-fixa {
   position: fixed;
-  /* Estas coordenadas são relativas à JANELA DO NAVEGADOR */
+  /* Estas coordenadas são relativas à JANELA DO NAVEGADOR 
   bottom: 10px;
   right: 10px;
   background-image: url('../imagens/quadros/eyes.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  /* Este elemento ficará aqui mesmo que você role a página */
-}
+  /* Este elemento ficará aqui mesmo que você role a página 
+} 
+*/
 
-.galeria-container {
-  /* Estilos básicos para o container */
-  border: 3px solid #333;
-  background-color: #f0f0f0;
-  padding: 10px;
-  height: 250px; /* Definindo uma altura para vermos o alinhamento vertical */
-
-  /* Ativando a 'estante de livros inteligente' */
+.imagem-fixa{
+  position: fixed;
   display: flex;
-  
-  /* Comandos para a 'estante': */
-  
-  /* Alinhe os livros horizontalmente */
-  justify-content: space-around; /* Coloque espaço ao redor de cada um */
-  
-  /* Alinhe os livros verticalmente */
-  align-items: center; /* Centralize-os no meio da estante */
+
+  border: 3px solid #333;
+  background-image: url('../imagens/quadros/eyes.jpg');
+  padding: 75px;
+  height: 75px;
+
 }
 
-/* Estilos básicos para os itens (livros) */
-.item {
-  background-color: #0056b3;
-  color: white;
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  font-size: 2em;
-  /* Apenas para visualização do alinhamento: */
-  line-height: 80px; 
-}
 
-.item-alto {
-  height: 120px;
-  line-height: 120px;
-}
+
