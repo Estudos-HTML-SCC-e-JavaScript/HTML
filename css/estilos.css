@@ -26,6 +26,10 @@ p{
   /* Estas coordenadas são relativas à JANELA DO NAVEGADOR */
   bottom: 10px;
   right: 10px;
-  background-image: url('../imagens/quadros/eyes.jpg'); 
+  background-image: url('../imagens/quadros/eyes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   /* Este elemento ficará aqui mesmo que você role a página */
 }
