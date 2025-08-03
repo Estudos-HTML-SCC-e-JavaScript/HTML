@@ -38,9 +38,9 @@ p{
   
   display: flex;
   border: 3px solid #333;
-  background-image: url('../imagens/quadros/eyes.jpg');
-  height: 100px;
-  width: 75px;
+  background-image: url('../imagens/quadros/malenia.jpg');
+  height: 200px;
+  width: 150px;
   background-size: cover;
   background-repeat: no-repeat;
 
