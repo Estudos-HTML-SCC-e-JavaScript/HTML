@@ -33,15 +33,16 @@ p{
 
 .imagem-fixa{
   position: fixed;
-  display: flex;
-
   bottom: 10px;
   right: 10px;
+  
+  display: flex;
   border: 3px solid #333;
   background-image: url('../imagens/quadros/eyes.jpg');
-  padding: 100px;
   height: 100px;
+  width: 75px;
   background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
